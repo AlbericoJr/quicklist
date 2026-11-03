@@ -1,0 +1,22 @@
+.site-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 28px
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--grey);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: -1.1px
+}
+
+.logo-mark {
+  width: 31px;
+  height: 31px;
+  color: var(--pink)
+}

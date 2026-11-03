@@ -1,0 +1,59 @@
+:root {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #374151;
+  background: #f5f5fb;
+  font-synthesis: none;
+  --pink: #ca3884;
+  --pink-hover: #ad2e70;
+  --red: #c93548;
+  --grey: #374151;
+  --background: #f5f5fb
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background)
+}
+
+button,
+input {
+  font: inherit
+}
+
+button {
+  cursor: pointer
+}
+
+.app-container {
+  max-width: 628px;
+  width: calc(100% - 36px);
+  margin: 65px auto 60px
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--pink);
+  font-size: 16px;
+  font-weight: 500;
+  transition: color .2s, transform .2s
+}
+
+.back-button:hover {
+  color: var(--pink-hover);
+  transform: translateX(-3px)
+}
+
+.back-button svg {
+  width: 16px;
+  height: 16px
+}
