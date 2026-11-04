@@ -1,18 +1,57 @@
 # Quicklist
 
-Lista de compras responsiva criada com HTML, CSS e JavaScript puro.
+Uma lista de compras simples, elegante e funcional, desenvolvida com HTML, CSS e JavaScript puro.
 
-## Como executar
+<div align="center">
+  <img src="./img/quicklist-print.png" alt="Preview do app Quicklist" width="1000" />
+</div>
 
-Abra `index.html` diretamente no navegador. Nenhuma instalação é necessária.
+## Visão geral
+
+O Quicklist é uma aplicação web para organizar compras da semana com uma interface limpa, responsiva e fácil de usar. O usuário pode adicionar itens, marcar como concluídos e remover da lista sem qualquer backend ou configuração adicional.
 
 ## Funcionalidades
 
-- Itens iniciais: Pão de forma, Café preto, Suco de laranja e Bolacha.
-- Adicionar itens pelo botão ou pela tecla Enter.
-- Marcar e desmarcar itens concluídos.
-- Remover itens com aviso visual temporário.
-- Salvar automaticamente no `localStorage` do navegador.
-- Layout adaptado para celulares e desktops.
+- Adicionar novos itens de compra
+- Marcar itens como concluídos ou pendentes
+- Remover itens da lista
+- Armazenar dados automaticamente no `localStorage` do navegador
+- Layout responsivo para desktop e mobile
+- Interface minimalista com foco na experiência do usuário
 
-A fonte Inter é carregada pelo Google Fonts quando houver conexão; sem conexão, o navegador usa Arial.
+## Como executar
+
+1. Faça o download ou clone este repositório.
+2. Navegue até a pasta do projeto.
+3. Abra o arquivo `index.html` diretamente no navegador.
+
+Não é necessária nenhuma instalação de dependências.
+
+## Estrutura do projeto
+
+```text
+quicklist/
+├── index.html
+├── script.js
+├── css/
+│   ├── global.css
+│   ├── header.css
+│   ├── index.css
+│   └── main.css
+├── img/
+│   ├── Logo.svg
+│   ├── arrow-left.svg
+│   └── quicklist-print.png
+└── README.md
+```
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- LocalStorage para persistência local
+
+## Observações
+
+A fonte `Inter` é carregada via Google Fonts quando houver conexão. Caso a rede esteja indisponível, o navegador usa uma fonte local como fallback.
